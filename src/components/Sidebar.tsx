@@ -6,7 +6,7 @@ import LOGO from '../assets/logo.png';
 
 const Sidebar = () => {
   const navItems = [
-    { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
+    { icon: LayoutDashboard, label: 'Dashboard', path: '/dashboard' },
     { icon: Camera, label: 'Video Stream', path: '/stream' },
     { icon: Bell, label: 'Alerts', path: '/alerts' },
     { icon: MessageSquare, label: 'Chat', path: '/chat' },

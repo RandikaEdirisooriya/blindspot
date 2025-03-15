@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Alert } from '../types';
 import AlertCard from '../components/AlertCard';
 import { Filter, Brain } from 'lucide-react';

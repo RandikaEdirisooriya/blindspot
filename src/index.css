@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gradient-to-br from-[#171c41d0] to-[#061432] dark:from-[#1f2937] dark:to-[#3b82f6] transition-colors duration-300;
+  margin: 0;
+  min-height: 100vh;
+}
+
 @layer base {
   :root {
     --glass-bg: rgba(255, 255, 255, 0.1);
